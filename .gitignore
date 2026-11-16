@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/pklot/images/
+data/crowdhuman/
+data/*.yaml
+runs/
+evaluation-*.json
+*-output.mp4
+.env

@@ -1,0 +1,32 @@
+{
+  "python_syntax": "pass",
+  "crowd_y11n": {
+    "loaded": true,
+    "sample_detections": 22,
+    "names": {
+      "0": "person",
+      "1": "head"
+    },
+    "sha256": "6d41d8ca31d6873e610e0b5c89f6e752133885d13757c9040c8fd35488f360fb"
+  },
+  "pklot_obb": {
+    "loaded": true,
+    "sample_detections": 104,
+    "names": {
+      "0": "space-empty",
+      "1": "space-occupied"
+    },
+    "sha256": "3f60cc989db48152b3afc6a9cecbc7a9408d0f9759ba23f93d75ed38abcaf117"
+  },
+  "parking_split": {
+    "train": 900,
+    "val": 150,
+    "test": 460
+  },
+  "parking_labels": "pass",
+  "crowd_split": {
+    "train": 1200,
+    "val": 300
+  },
+  "verified_at": "2026-11-16T15:27:40.603733+00:00"
+}

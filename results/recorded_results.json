@@ -1,0 +1,24 @@
+{
+  "parking_heldout": {
+    "mAP50": 0.941,
+    "mAP50-95": 0.804,
+    "per_class_mAP50": {
+      "space-empty": 0.937,
+      "space-occupied": 0.945
+    }
+  },
+  "parking_video_pucpr": "161 snapshots  mean abs error 11.47 spaces/snapshot  max 79  alerts 2",
+  "parking_video_ufpr05": "143 snapshots  mean abs error 1.14 spaces/snapshot  max 5  alerts 2",
+  "parking_video_ufpr04": "156 snapshots  mean abs error 0.05 spaces/snapshot  max 2  alerts 0",
+  "crowd_finetuned": {
+    "mAP50_person": 0.669,
+    "mAP50_head": 0.581
+  },
+  "crowd_stock_coco": {
+    "mAP50_person": 0.602,
+    "note": "stock model has no head class"
+  },
+  "queue_people": "frames 475  avg model+tracker 168.9 ms/frame  alerts 1  completed waits 10  peak smoothed count 10",
+  "queue_heads": "frames 475  avg model+tracker 170.3 ms/frame  alerts 0  completed waits 1  peak smoothed count 0",
+  "queue_stock": "frames 475  avg model+tracker 172.6 ms/frame  alerts 1  completed waits 6  peak smoothed count 10"
+}
